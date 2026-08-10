@@ -35,7 +35,7 @@ jobs:
           ref: ${{ github.event.repository.default_branch }}
 
       - name: Update changelog
-        uses: shazib-summar/automated-changelog-gh@unstable-v0.3.0
+        uses: shazib-summar/automated-changelog-gh@b0b9e8ba8eadae8d468650d60c00f0da2af157f2
         with:
           # see inputs at https://github.com/shazib-summar/automated-changelog-gh#inputs
           tag: ${{ github.event.inputs.tag }}
